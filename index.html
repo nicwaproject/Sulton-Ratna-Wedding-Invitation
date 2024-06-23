@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <title>Wedding Invitation</title>
+    <meta property="og:title" content="Wedding Invitation">
+    <meta property="og:description" content="Toni & Ratna's Wedding Invitation">
+    <meta property="og:image" content="gallery1.jpeg"> <!-- Specify the URL of your preview image -->
+    <meta property="og:image:width" content="300"> <!-- Width of the image in pixels -->
+    <meta property="og:image:height" content="300"> <!-- Height of the image in pixels -->
+    <link rel="icon" href="NPLOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=La+Belle+Aurore&family=Marck+Script&family=Noto+Naskh+Arabic:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Updock&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=La+Belle+Aurore&family=Marck+Script&family=Noto+Naskh+Arabic:wght@400..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Updock&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="invitationCover" class="invitation-cover">
+        <div class="cover-content">
+            <p class="couple" id="coupleNames"></p>
+            <p>Kepada Yth</p>
+            <p class="guest"><span id="guestName"></span></p>
+            <p class="invite-text">Kami mengundang anda untuk hadir di acara pernikahan kami</p>
+            <button id="openButton">Open Invitation</button>
+        </div>
+    </div>
+
+    <div id="invitationContent" class="invitation-content">
+        <div class="section fade-in" id="section1">
+            <h1 class="couple-name">Toni & Ratna</h1>
+        </div>
+        <div class="section" id="section2">
+            <div class="quran-verse">
+                <p class="verse fade-slide">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ</p>
+                <p class="translation fade-slide">Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</p>
+                <p class="surah fade-slide">Surah Ar-Rum, 30:21</p>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div id="countdown">
+                <div class="unit fade-slide">
+                    <span class="number" id="days"></span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="unit fade-slide">
+                    <span class="number" id="hours"></span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="unit fade-slide">
+                    <span class="number" id="minutes"></span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="unit fade-slide">
+                    <span class="number" id="seconds"></span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <h2 class="fade-slide">Profile</h2>
+            <div class="profile">
+                <img src="husband.jpeg" alt="Husband Profile" class="fade-slide">
+                <div class="profile-info fade-slide">
+                    <h3>Ahmad Hadi Sultoni S. Ag</h3>
+                    <p>Putra ke-2 Bapak Muhammad & Ibu Murham</p>
+                    <!-- <a href="-" target="_blank" class="instagram-button">Instagram</a> -->
+                </div>
+            </div>
+            <div class="profile">
+                <img src="wife.jpeg" alt="Wife Profile" class="fade-slide">
+                <div class="profile-info fade-slide">
+                    <h3>Ratna Islami</h3>
+                    <p>Putri ke-7 dari Bapak  Dahre & Ibu Saridah</p>
+                    <!-- <a href="-" target="_blank" class="instagram-button">Instagram</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section5">
+            <h2 class="fade-slide">Wedding Details</h2>
+            <div class="wedding-detail">
+                <div class="event fade-slide">
+                    <h3>Akad</h3>
+                    <p><strong>Date:</strong> Kamis, 27 Juni 2024</p>
+                    <p><strong>Time:</strong> 09:00 WITA</p>
+                    <p><strong>Location:</strong> Masjid Nurul Qur'an</p>
+                    <p><strong>Address:</strong> Ponpes Tahfidzul Qur'an An-Nur Abhari Kerangkeng Banyumulek</p>
+                    <a href="https://maps.app.goo.gl/htZDAi6x7dz3cFFA6" target="_blank" class="location-button">Check Location</a>
+                </div>
+                <div class="event fade-slide">
+                    <h3>Resepsi</h3>
+                    <p><strong>Date:</strong> Kamis, 27 Juni 2024</p>
+                    <p><strong>Time:</strong> 10:00 WITA</p>
+                    <p><strong>Location:</strong> Ponpes Tahfidzul Qur'an An-Nur Abhari</p>
+                    <p><strong>Address:</strong> Kerangkeng Banyumulek, Kediri, Lombok Barat</p>
+                    <a href="https://maps.app.goo.gl/BT56uHo6fVT6tqhc6" target="_blank" class="location-button">Check Location</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="section" id="section6">
+            <h2 class="gallery-title fade-slide">Photo Gallery</h2>
+            <div class="gallery fade-slide">
+                <img src="gallery1.jpeg" alt="Gallery Photo 1" class="fade-slide">
+                <img src="gallery2.jpeg" alt="Gallery Photo 2" class="fade-slide">
+                <img src="gallery3.jpeg" alt="Gallery Photo 3" class="fade-slide">
+                <img src="gallery6.jpeg" alt="Gallery Photo 4" class="fade-slide">
+                Add more photos as needed 
+            </div>  -->
+            <!-- Message Form Section -->
+    <div class="section" id="section7">
+        <h2 class="fade-slide">Your Message</h2>
+        <form id="messageForm" class="fade-slide">
+            <input type="text" id="formGuestName" placeholder="Your Name" required>
+            <textarea id="guestMessage" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+                </form>
+            <div id="messageList"></div>
+        </div>
+
+        <div class="section" id="gift">
+            <h2 class="fade-slide">Gift</h2>
+            <div class="gift-details fade-slide">
+                <p>BSI</p>
+                <p>Ahmad Hadi Sultoni</p>
+                <p class="bank-number">4565789580</p>
+                <button id="copyButton">Copy Bank Number</button>
+            </div>
+        </div>
+        
+        
+        <div class="section" id="section8">
+            <div class="thank-you fade-slide">
+                <h2>Thank You!</h2>
+                <p>We appreciate your presence on our special day.</p>
+            </div>
+        </div>
+        
+        <div class="section" id="section9">
+            <h2 class="fade-slide">Connect With Us</h2>
+            <div class="brand-logo fade-slide">
+                <img src="Alisyba Entertainment.jpeg" alt="Alisyba_Entertainment">
+            </div>
+            <div class="social-media fade-slide">
+                <a href="https://www.instagram.com/alisyba_entertainment?igsh=MTgzeXBsNjY5ZXJqeA==" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+            <br>
+            <div class="brand-logo fade-slide">
+                <img src="nicwaprojectlogo.png" alt="Nicwa_Project">
+            </div>
+            <div class="social-media fade-slide">
+                <a href="https://www.facebook.com/profile.php?id=61560664461271&mibextid=LQQJ4d" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/nicwaproject?igsh=enk4YWxoa24zNzY5&utm_source=qr" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        
+    <div class="audio-controls">
+        <img id="playPauseButton" src="play-button.png" alt="Play" class="play-btn">
+    </div>
+</div>
+
+<audio id="backgroundMusic" src="Wedding Nasheed - Muhammad Al Muqit Lyrics Arabic Terjemahan 𝘈𝘳𝘢𝘣𝘪𝘤 𝘕𝘢𝘴𝘩𝘦𝘦𝘥 محمد المقيط.mp3"></audio> <!-- Change this to the path of your music file -->
+    <script src="script.js"></script>
+</body>
+</html>
