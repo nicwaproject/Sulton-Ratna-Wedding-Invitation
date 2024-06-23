@@ -96,7 +96,7 @@ body {
 /* .......SECTION 1........... */
 
 #section1 {
-    background-image: url('gallery4.jpeg'); /* Desktop background image */
+    background-image: url('gallery3.jpeg'); /* Desktop background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -396,7 +396,7 @@ body {
 
 /* ...........SECTION 8............. */
 #section8 {
-    background-image: url('gallery4.jpeg'); /* Mobile background image */
+    background-image: url('gallery2.jpeg'); /* Mobile background image */
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -604,7 +604,7 @@ button:hover {
     }
     /* SECTION8 */
     #section8 {
-        background-image: url('gallery1.jpeg'); /* Desktop background image */
+        background-image: url('gallery2.jpeg'); /* Desktop background image */
     }
     .thank-you {
         max-width: auto;
