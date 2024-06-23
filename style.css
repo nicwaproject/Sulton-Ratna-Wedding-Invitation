@@ -40,7 +40,7 @@ body {
 }
 
 .couple {
-    font-size: 4.5em;
+    font-size: 4em;
     font-weight: bold;
     font-family: "Updock", cursive;
     font-weight: 400;
@@ -549,7 +549,7 @@ button:hover {
         background-image:url('gallery4.jpeg');
     }
     .couple {
-        font-size: 4.5em;
+        font-size: 4em;
     }
     .guest {
         font-size: 1.7em;
