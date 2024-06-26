@@ -45,10 +45,15 @@ document.addEventListener("DOMContentLoaded", function() {
     playPauseButton.addEventListener('click', togglePlayPause);
 
     // Countdown Timer
-    function calculateCountdown() {
+function calculateCountdown() {
     const weddingDate = new Date('2024-06-26T10:00:00'); // Set your wedding date and time here (e.g., 3:00 PM)
     const currentDate = new Date();
     let timeRemaining = weddingDate - currentDate;
+
+    if (timeRemaining <= 0) {
+        clearInterval(intervalId);
+        timeRemaining = 0;
+    }
 
     const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
     const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -61,8 +66,9 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('seconds').textContent = seconds;
 }
 
-setInterval(calculateCountdown, 1000);
+const intervalId = setInterval(calculateCountdown, 1000);
 calculateCountdown();
+
 
 // Function to copy account details
 function copyAccountDetails() {
